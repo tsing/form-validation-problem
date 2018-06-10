@@ -1,0 +1,20 @@
+{
+  "name": "form-validation-problem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tsing/form-validation-problem.git",
+  "author": "Jesse <mr@jianqing.wang>",
+  "private": true,
+  "dependencies": {
+    "babel-core": "~6.26.3",
+    "babel-loader": "~7.1.4",
+    "babel-preset-env": "~1.7.0",
+    "html-webpack-plugin": "~3.2.0",
+    "webpack": "~4.12.0",
+    "webpack-cli": "~3.0.3"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "start": "NODE_ENV=production webpack --watch"
+  }
+}

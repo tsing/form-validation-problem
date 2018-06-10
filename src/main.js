@@ -1,3 +1,4 @@
+import "babel-polyfill";
 import validator from 'validator';
 
 const rules = {

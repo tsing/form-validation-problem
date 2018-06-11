@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {join} = require('path');
 
 module.exports = {
+  mode: process.env.NODE_ENV,
   module: {
     rules: [
       { test: /\.js$/, use: 'babel-loader', include: /src/ }

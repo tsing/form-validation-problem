@@ -36,6 +36,30 @@ Beyond the problem statement, show us the consideration you have given to some o
 - Testing
 - Tooling
 
+
+My consideration about this problem:
+
+* The form validation problem is a classic problem for frontend developer,
+  I read the requirements carefully and thought how I would solve it in my
+  mind.
+* I added webpack and babel to the codebase in order to setup a comfort dev
+  environment.
+* Then I translate the form validation requirements into a `rules` object in
+  `src/main.js` which make the requirements easy to understand and extensible.
+* And then I add logic in onsubmit function to build form vaule and apply
+  the rules to it.
+* I think the code in `src/main.js` is very straightforward and self
+  explain.
+* I tested the page under Firefox, Chrome, Safari and IE11.
+* Although I was planned to use mocha for testing, but I am run out of time because
+  I was running out of 2 hours time.
+* The form validation code is added to the form dynamically, so it's possible that
+  user submit the form before the code is loaded, in that case,
+  malformed data could be send to server side.
+* The password input's `name` attribute is different with its `id` and
+  `label`, it weird and may cause problem in development.
+
+
 ## Submission
 
 Please email us a link to your fork of this repository, or a zip of your solution to `1337h4x0r@springload.co.nz`.

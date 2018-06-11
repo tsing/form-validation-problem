@@ -37,7 +37,7 @@ Beyond the problem statement, show us the consideration you have given to some o
 - Tooling
 
 
-My consideration about this problem:
+## My consideration about this problem
 
 * The form validation problem is a classic problem for frontend developer,
   I read the requirements carefully and thought how I would solve it in my
